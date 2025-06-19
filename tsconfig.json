@@ -13,5 +13,13 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "app/_layout.jsx", "app/about.jsx", "app/contact.jsx"  ],
+  "paths": {
+  "@app/*": ["./app/*"],
+  "@assets/*": ["./assets/*"],
+  "@components/*": ["./components/*"],
+  "@styles/*": ["./styles/*"],
+  "@utils/*": ["./utils/*"]
+}
+
 }
